@@ -9,4 +9,4 @@ for i in list:
     if list.count(i)>1 and i not in duplicate:
         duplicate.append(i)
         count+=1
-        print("Duplicate elements:", duplicate, count)
+        print("Duplicate elements:", duplicate)
